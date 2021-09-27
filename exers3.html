@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Homework_4_exercise_3</title>
+</head>
+<body>
+
+    <div class="indexExercises">
+    <a href="index.html">Главная страница</a> |
+    <a href="exers1.html">Задание 1</a> |
+    <a href="exers2.html">Задание 2</a>
+
+</div>
+
+    <h2 class="tagH">Создание меню.</h2>
+
+
+    <form id="hoho" method="post" action="" name="mainForm">
+        Пункты меню:
+        <input class="formsIn" type="text" id="elemMenu" size="40" placeholder="Введите пункты меню через запятую"><br>
+        Цвет текста:
+        <input class="formsIn" type="color" id="colorText" value="#ffffff"><br>
+        Цвет фона   :
+        <input class="formsIn" type="color" id="colorBackGr" value="#f50000"><br>
+        Цвет hover :
+        <input class="formsIn" type="color" id="colorHover" value="#000000"><br>
+        <input class="formsIn" type="button" value="Cоздать меню" name="buttonMake" onClick="startMake()">
+    </form>
+
+    <div id="divResult"></div>
+    <div id="container"><div id="divMenu"></div></div>
+    <div id="divPic"></div>
+
+
+<script src="js/exers3.js"></script>
+
+</body>
+</html>
